@@ -11,9 +11,9 @@
   var iscroll=new IScroll(".content",{
   onmousewheel:true,
   scrollbars:true,
-  shrinkScrollbars:"scale"
-  fadeScrollbars:true;
-  click:true;
+  shrinkScrollbars:"scale",
+ 
+  click:true,
 
 });
   var state="project";
